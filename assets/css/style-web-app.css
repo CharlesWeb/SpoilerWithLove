@@ -254,6 +254,37 @@ h4 {
  *  Section Heading Section Defult Style
  * ===============================
  */
+
+
+
+ /**
+  * ===============================
+  *  Our CSS
+  * ===============================
+  */
+.mainTitle{
+  font-family: 'Dancing Script', cursive;
+  font-size: 110px;
+}
+.red{
+  color: red;
+  font-size: 75px;
+}
+
+.headline{
+  font-size: 30px !important;
+}
+
+.choice{
+  margin-bottom: 75px;
+}
+.radio{
+  color: white;
+}
+
+
+
+
 .section-heading {
   position: relative;
   padding-bottom: 20px;
@@ -660,7 +691,7 @@ h4 {
 }
 .header .overlay-color {
   background-color: rgba(47, 48, 52, 0.83);
-  padding-top: 270px;
+  padding-top: 100px;
 }
 .header .overlay-color-video {
   background-color: rgba(47, 48, 52, 0.5);

@@ -24,6 +24,7 @@
         <!-- GOOGLE FONTS -->
         <link href='https://fonts.googleapis.com/css?family=Lato:400,300italic,300,700' rel='stylesheet' type='text/css'> <!-- font-family: 'Lato', sans-serif; -->
         <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic' rel='stylesheet' type='text/css'> <!-- font-family: 'Lora', serif; -->
+        <link href='https://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
 
         <!-- BOOTSTRAP CSS -->
         <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
@@ -84,11 +85,12 @@
                 <div class="container">
                     <div class="row header-body section-separator ">
 
+
                         <div class="header-contant-left align-center col-md-8 col-md-offset-2">
                             <div class="row">
-
                                 <!-- Headline Goes HEre -->
-                                <h1 class=" wow fadeInUp">Texte à propos du spoil à trouver </h1>
+                                <h1 class="mainTitle wow fadeInUp">Spoil With <span class="red"><i class="fa fa-heart"></i></span></h1>
+                                <h1 class="headline wow fadeInUp">Spoil tes potes sur leurs séries préférés! Entre juste un email en dessous, on s'occupe de tout ;)  </h1>
 
 
 
@@ -97,24 +99,27 @@
                                 <form class="single-form outer-border" action="send.php" method="POST">
                                     <div class="col-sm-10 col-sm-offset-1">
 
-                                      <div class="radio">
-                                        <label>
-                                          <input type="radio" name="choixSerie" id="optionsRadios1" value="got" checked>
-                                          Game Of Thrones
-                                        </label>
+                                      <div class="choice">
+                                        <div class="row col-md-10 radio">
+                                          <label>
+                                            <input type="radio" name="choixSerie" id="optionsRadios1" value="got" checked>
+                                            Game Of Thrones
+                                          </label>
+                                        </div>
+                                        <div class="row col-md-10 radio">
+                                          <label>
+                                            <input type="radio" name="choixSerie" id="optionsRadios2" value="twd">
+                                            The Walking Dead
+                                          </label>
+                                        </div>
+                                        <div class="row col-md-10 radio">
+                                          <label>
+                                            <input type="radio" name="choixSerie" id="optionsRadios3" value="robot">
+                                            Mr Robot
+                                          </label>
+                                        </div>
                                       </div>
-                                      <div class="radio">
-                                        <label>
-                                          <input type="radio" name="choixSerie" id="optionsRadios2" value="twd">
-                                          The Walking Dead
-                                        </label>
-                                      </div>
-                                      <div class="radio">
-                                        <label>
-                                          <input type="radio" name="choixSerie" id="optionsRadios3" value="robot">
-                                          Mr Robot
-                                        </label>
-                                      </div>
+
 
                                         <div class="input-group wow fadeInUp" data-wow-delay="0.5s">
 
@@ -154,7 +159,7 @@
                 <div class="row footer-body section-separator">
 
                     <div class="copyright col-sm-12 col-md-8">
-                        <p>&copy; 2015 <a href="http://deviserweb.com" title="deviserweb.com">SpoilerWithLove. </a> Projet de site en compétition pour les Buzzies Awards #IIM Afonso Jordan/Barbier Charles/Darcet Benjamin</p>
+                        <p>&copy; 2015 <a href="http://deviserweb.com" title="deviserweb.com">SpoilWithLove. </a> Projet de site en compétition pour les Buzzies Awards #IIM Afonso Jordan/Barbier Charles/Darcet Benjamin</p>
                     </div>
 
                     <!-- Social Icon Goes Here  -->
@@ -163,7 +168,6 @@
 
                             <li><a href="index.html#" data-color="#3C5A99" title="Facebook"> <i class="fa fa-facebook"></i> </a></li>
                             <li><a href="index.html#" data-color="#28A9E0" title="Twitter"> <i class="fa fa-twitter"></i> </a></li>
-                            <li><a href="index.html#" data-color="#D44132" title="Google-Plus"> <i class="fa fa-google-plus"></i> </a></li>
                         </ul>
                     </div>
 
