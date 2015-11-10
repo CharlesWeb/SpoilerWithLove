@@ -29,7 +29,7 @@
         2.1. Navigation  / #navbar
             2.1.1. Navigation Style / .header-nav
 
-        2.2. Header Contant 
+        2.2. Header Contant
             2.2.1. Header Background / .header-background
             2.2.2. Header Style / .header
 
@@ -100,7 +100,7 @@
     13. Footer Section / .footer
         13.1. Social Menu Style / .social-icon
 
-    
+
 
 -------------------------------------------------------------------*/
 /*------------------------------------------------------------------
@@ -138,7 +138,7 @@
 /*------------------------------------------------------------------
 [Typography]
 
-Body : 
+Body :
     font-family:    'Lora', serif;
     font-style:     italic;
     font-size:      15px;
@@ -158,7 +158,7 @@ Section Heading:
     font-style:     normal;
     font-size:      30px;
 
-p:  
+p:
     font-family:    'Lora', serif;
     font-style:     italic;
     font-size:      15px;
@@ -169,7 +169,7 @@ Notes:  This Template Defult [ font-family: 'Lora', serif; ] [ font-style: itali
 -------------------------------------------------------------------*/
 /**
  * ===============================
- *  Defult CSS 
+ *  Defult CSS
  * ===============================
  */
 html * {
@@ -251,7 +251,7 @@ h4 {
 }
 /**
  * ===============================
- *  Section Heading Section Defult Style 
+ *  Section Heading Section Defult Style
  * ===============================
  */
 .section-heading {
@@ -294,7 +294,7 @@ h4 {
 }
 /**
  * ===============================
- *  Section Top and Bottom padding  
+ *  Section Top and Bottom padding
  * ===============================
  */
 .section-separator {
@@ -498,7 +498,7 @@ h4 {
 }
 /**
  * ================================
- * Navbar Style 
+ * Navbar Style
  * ================================
  */
 .header-nav {
@@ -649,7 +649,7 @@ h4 {
 /*  ====================  */
 .header-background {
   background-color: rgba(34, 34, 34, 0.99);
-  background-image: url('http://demo.deviserweb.com/startex/assets/images/collapse-image.jpg');
+  background-image: url('../images/JS.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -660,6 +660,7 @@ h4 {
 }
 .header .overlay-color {
   background-color: rgba(47, 48, 52, 0.83);
+  padding-top: 180px;
 }
 .header .overlay-color-video {
   background-color: rgba(47, 48, 52, 0.5);
@@ -669,6 +670,7 @@ h4 {
 }
 .header-body .header-contant-left h1 {
   color: #fff;
+  padding-bottom: 100px;
 }
 .header-body .header-contant-left h1 span {
   display: inline-block;
@@ -714,7 +716,7 @@ h4 {
 }
 /**
  * =============================
- * EASY FEATURES AVAILABLE 
+ * EASY FEATURES AVAILABLE
  * =============================
  */
 .easy-features-available {
@@ -1165,7 +1167,7 @@ h4 {
 }
 /**
  * ======================
- * Pricing Table Section 
+ * Pricing Table Section
  * ======================
  */
 .pricing-table .table {
@@ -1539,7 +1541,7 @@ h4 {
 }
 /**
  * ===========================
- * Footer Section 
+ * Footer Section
  * ===========================
  */
 .social-icon ul li {
