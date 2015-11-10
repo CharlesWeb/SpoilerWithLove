@@ -6,7 +6,7 @@ if(isset($_POST['submit'])){
   if($_POST['choixSerie'] == 'got'){
     $body = file_get_contents('email.html');
   }elseif($_POST['choixSerie'] == 'twd'){
-    $body = "zombie mes couilles";
+    $body = file_get_contents('dashboard/editor/email_twd.html');
   }else{
     $body = "mr robot";
   }
