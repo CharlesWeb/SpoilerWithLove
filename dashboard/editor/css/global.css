@@ -1,0 +1,41 @@
+/*** Custom Font ***/
+@font-face{
+font-family:"ProximaNW01-AltThinReg";
+src:url("../../../css/Fonts/9de06c9b-e01e-48d4-b864-599e6bf15774-.eot#iefix");
+src:url("../../../css/Fonts/9de06c9b-e01e-48d4-b864-599e6bf15774-.eot#iefix") format("eot"),url("../../../css/Fonts/2c1b14e1-f9f3-46d2-97d5-69d45cffb5d7.woff") format("woff"),url("../../../css/Fonts/ee527a2c-7f40-43c1-98fa-095263631aea.ttf") format("truetype"),url("../../../css/Fonts/51834262-4210-4d01-942f-6ad0dead091f.svg#51834262-4210-4d01-942f-6ad0dead091f") format("svg");
+}
+@font-face{
+font-family:"ProximaNW01-AltLightReg";
+src:url("../../../css/Fonts/dae3ab6e-9824-4d09-be4d-0dd63919caf1-.eot#iefix");
+src:url("../../../css/Fonts/dae3ab6e-9824-4d09-be4d-0dd63919caf1-.eot#iefix") format("eot"),url("../../../css/Fonts/57e50225-0ba6-4485-99eb-da20ed870c76.woff") format("woff"),url("../../../css/Fonts/2ed17183-9ebd-4294-a07e-7bd7b1ce07af.ttf") format("truetype"),url("../../../css/Fonts/b45f178e-8b38-492a-a31e-d8172c0b29e2.svg#b45f178e-8b38-492a-a31e-d8172c0b29e2") format("svg");
+}
+@font-face{
+font-family:"Proxima N W01 At Reg";
+src:url("../../../css/Fonts/96676c88-bae1-468a-acf5-fa74fdb2b736-.eot#iefix");
+src:url("../../../css/Fonts/96676c88-bae1-468a-acf5-fa74fdb2b736-.eot#iefix") format("eot"),url("../../../css/Fonts/dba0fe51-98c1-4045-b289-c0e6afb10f73.woff") format("woff"),url("../../../css/Fonts/14c284c3-7a50-4ef0-becf-c01232631f59.ttf") format("truetype"),url("../../../css/Fonts/c7536b52-8fbc-472d-8d8a-335dae2980df.svg#c7536b52-8fbc-472d-8d8a-335dae2980df") format("svg");
+}
+@font-face{
+font-family:"Proxima N W01 At Smbd";
+src:url("../../../css/Fonts/a9f16204-0ff0-4a9e-8a02-59d15bc5f66b-.eot#iefix");
+src:url("../../../css/Fonts/a9f16204-0ff0-4a9e-8a02-59d15bc5f66b-.eot#iefix") format("eot"),url("../../../css/Fonts/6e328769-56a5-4de1-957e-575f839df36d.woff") format("woff"),url("../../../css/Fonts/b5b3aa5a-a6be-4897-a646-09224334b90b.ttf") format("truetype"),url("../../../css/Fonts/bcade2c9-7691-43e7-9c1b-e6b2ac50ee97.svg#bcade2c9-7691-43e7-9c1b-e6b2ac50ee97") format("svg");
+}
+
+/*** Reset ***/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption { margin: 0; padding: 0; border: 0; outline: 0; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: inherit; }
+
+html { width: 100%; }
+body { width: 100%; font-family: 'ProximaNW01-AltLightReg', Helvetica, Arial, sans-serif; -webkit-font-smoothing: subpixel-antialiased; transform: translate3d(0, 0, 0); }
+
+/*** global styles ***/
+.mainColor { color: #b4b77c!important; }
+.light { font-family: 'ProximaNW01-AltLightReg', Helvetica, Arial, sans-serif; }
+.semi_bold { font-family: 'Proxima N W01 At Smbd', Helvetica, Arial, sans-serif; }
+.regular { font-family: 'Proxima N W01 At Reg', Helvetica, Arial, sans-serif; }
+.disable_selection {  -webkit-user-select: none; -moz-user-select: none; }
+#sidebar a, .notificationDemoLink { text-decoration: none; }
+.hidden { display: none; }
+
+#frame *:focus { outline: none; }
+
+.clear-fix:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
+.clear-fix { zoom: 1; }
