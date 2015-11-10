@@ -3,6 +3,14 @@ require_once 'vendor/autoload.php';
 
 if(isset($_POST['submit'])){
 
+  if($_POST['choixSerie'] == 'got'){
+    $body = file_get_contents('email.html');
+  }elseif($_POST['choixSerie'] == 'twd'){
+    $body = "zombie mes couilles";
+  }else{
+    $body = "mr robot";
+  }
+
     $dest_mail = htmlspecialchars(trim($_POST['email']));
     var_dump($dest_mail);
 
@@ -24,7 +32,7 @@ if(isset($_POST['submit'])){
     $mail->IsHTML(true);                                  // Set email format to HTML
 
     $mail->Subject = 'Petit cadeau d\'un ami';
-    $mail->Body    = 'lel';
+    $mail->Body    = $body;
     $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
     if(!$mail->Send()) {
