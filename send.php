@@ -2,6 +2,7 @@
 require_once 'vendor/autoload.php';
 
 if(isset($_POST['submit'])){
+
     $dest_mail = htmlspecialchars(trim($_POST['email']));
     var_dump($dest_mail);
 
@@ -23,7 +24,7 @@ if(isset($_POST['submit'])){
     $mail->IsHTML(true);                                  // Set email format to HTML
 
     $mail->Subject = 'Petit cadeau d\'un ami';
-    $mail->Body    = 'This is the HTML message body <strong>in bold!</strong>';
+    $mail->Body    = 'lel';
     $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
     if(!$mail->Send()) {
