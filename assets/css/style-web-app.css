@@ -299,7 +299,7 @@ h4 {
  */
 .section-separator {
   display: block;
-  padding: 85px 0;
+  padding: 25px 0;
 }
 /**
  * ===============================
@@ -660,7 +660,7 @@ h4 {
 }
 .header .overlay-color {
   background-color: rgba(47, 48, 52, 0.83);
-  padding-top: 180px;
+  padding-top: 270px;
 }
 .header .overlay-color-video {
   background-color: rgba(47, 48, 52, 0.5);
